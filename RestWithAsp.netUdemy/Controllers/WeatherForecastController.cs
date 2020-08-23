@@ -35,5 +35,21 @@ namespace RestWithAsp.netUdemy.Controllers
             })
             .ToArray();
         }
+        [HttpPost]
+        public void Post([FromBody]string value)
+        {
+
+        }
+        [HttpPut]
+        public void Put(int id,[FromBody] string value)
+        {
+
+        }
+        [HttpDelete]
+        public void Delete (int id)
+        {
+
+        }
+
     }
 }
